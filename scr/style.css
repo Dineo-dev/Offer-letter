@@ -64,4 +64,9 @@ primary {
   color: #333;
 }
 
-
+.address {
+  text-align: right;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 30px;
+}
