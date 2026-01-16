@@ -49,9 +49,9 @@ body {
 }
 
 /* Hover effect */
-.navbar li:hover {
+/* .navbar li:hover {
   opacity: 0.8;
-}
+} */
 
 /* NAV ITEMS */
 .nav-item {
@@ -95,9 +95,9 @@ body {
   font-size: 14px;
 }
 
-.dropdown-menu li:hover {
+/* .dropdown-menu li:hover {
   background-color: #f1f1f1;
-}
+} */
 
 
 
@@ -124,6 +124,19 @@ body {
   display: flex;
   align-items: center;
   cursor: default;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.active {
+  display: block;
 }
 
 /* MAIN CONTAINER */
