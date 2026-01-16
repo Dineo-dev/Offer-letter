@@ -39,10 +39,10 @@ body {
   font-size: 14px;
 }
 
-.navbar .fa-caret-down {
+/* .navbar .fa-caret-down {
   margin-left: 6px;
   font-size: 12px;
-}
+} */
 
 .nav-right li {
   margin-right: 0;
@@ -95,9 +95,9 @@ body {
   font-size: 14px;
 }
 
-/* .dropdown-menu li:hover {
+.dropdown-menu li:hover {
   background-color: #f1f1f1;
-} */
+}
 
 
 
@@ -111,33 +111,7 @@ body {
   margin-right: 0;
 }
 
-/* Newly added */
-
-.nav-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  position: relative;
-}
-
-.nav-label {
-  display: flex;
-  align-items: center;
-  cursor: default;
-}
-
-.dropdown-toggle {
-  cursor: pointer;
-  padding: 4px;
-}
-
-.dropdown-menu {
-  display: none;
-}
-
-.dropdown-menu.active {
-  display: block;
-}
+/* B */
 
 /* MAIN CONTAINER */
 .container {
@@ -157,7 +131,7 @@ body {
 }
 
 .document h3 {
-  text-align: center;
+  text-align: right;
   margin-bottom: 30px;
 }
 .document hr {
@@ -193,7 +167,7 @@ body {
   text-align: right;
   font-size: 13px;
   color: #555;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .footer {
