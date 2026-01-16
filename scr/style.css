@@ -99,10 +99,7 @@ body {
   background-color: #f1f1f1;
 }
 
-/* SHOW DROPDOWN ON HOVER */
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
+
 
 /* RIGHT SIDE DROPDOWN */
 .dropdown-menu.right {
@@ -112,6 +109,21 @@ body {
 
 .nav-right .nav-item {
   margin-right: 0;
+}
+
+/* Newly added */
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.nav-label {
+  display: flex;
+  align-items: center;
+  cursor: default;
 }
 
 /* MAIN CONTAINER */

@@ -26,12 +26,16 @@
       </li>
 
       <li class="nav-item dropdown">
-        <span>  
+        <span class="nav-label">  
         <i class="fa-solid fa-user"></i> Users
-        <i class="fa-solid fa-caret-down"></i>
+        <!-- <i class="fa-solid fa-caret-down"></i> -->
         </span>
 
-        <ul class="dropdown-menu">
+         <span class="dropdown-toggle" data-target="users-menu">
+         <i class="fa-solid fa-caret-down"></i>
+         </span>
+
+        <ul class="dropdown-menu" id="users-menu">
         <li>Add User</li>
         <li>View/Edit Users</li>
       </ul>
