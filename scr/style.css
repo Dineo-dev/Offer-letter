@@ -39,10 +39,14 @@ body {
   font-size: 14px;
 }
 
-/* .navbar .fa-caret-down {
+.navbar .fa-caret-down {
   margin-left: 6px;
   font-size: 12px;
-} */
+}
+
+.nav-right li {
+  margin-right: 0;
+}
 
 /* MAIN CONTAINER */
 .container {
