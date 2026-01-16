@@ -90,6 +90,30 @@ body {
   z-index: 1000;
 }
 
+.dropdown-menu li {
+  padding: 12px 15px;
+  font-size: 14px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* RIGHT SIDE DROPDOWN */
+.dropdown-menu.right {
+  right: 0;
+  left: auto;
+}
+
+.nav-right .nav-item {
+  margin-right: 0;
+}
+
 /* MAIN CONTAINER */
 .container {
   display: flex;
