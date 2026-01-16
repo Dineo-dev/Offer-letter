@@ -53,6 +53,19 @@ body {
   opacity: 0.8;
 }
 
+/* NAV ITEMS */
+.nav-item {
+  position: relative;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.nav-item span {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
 /* MAIN CONTAINER */
 .container {
   display: flex;
