@@ -26,6 +26,14 @@ body {
   align-items: center;
 }
 
+.navbar li {
+  margin-right: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
 /* MAIN CONTAINER */
 .container {
   display: flex;
