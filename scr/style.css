@@ -168,6 +168,11 @@ body {
   font-size: 13px;
   color: #555;
   margin-bottom: 0px;
+   line-height: 0.1;
+}
+
+.offer {
+  text-align: center;
 }
 
 .footer {
