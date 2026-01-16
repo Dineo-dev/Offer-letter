@@ -49,9 +49,9 @@ body {
 }
 
 /* Hover effect */
-/* .navbar li:hover {
+.navbar li:hover {
   opacity: 0.8;
-} */
+}
 
 /* NAV ITEMS */
 .nav-item {
